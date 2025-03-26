@@ -16,7 +16,7 @@ def frame(id:str):
         with ui.link(target='/settings'):
             ui.icon('settings')
     with ui.footer().classes('justify-center'):
-        ui.link('github', 'https://github.com')
+        ui.link('github', 'https://github.com/tyxlb/reself')
         ui.link("author's link", '/user/k51qzi5uqu5dgwz80ysfut2o4mg9k9gekckbhd2kax8q5ny229v7r1lcsm2dmk')
     with ui.column().classes('absolute-center items-center'):
         yield
